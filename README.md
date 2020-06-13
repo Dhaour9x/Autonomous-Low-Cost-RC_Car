@@ -18,4 +18,8 @@ The autonomous scaled rc is low-cost test platform designed for formula stdent d
 ## Component Documentation
 
 
-@Riadh Dhaoui
+
+
+
+
+@[Riadh Dhaoui](https://www.linkedin.com/in/riadh-dhaoui-2768b1167/)
