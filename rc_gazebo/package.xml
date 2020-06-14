@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>rc_gazebo</name>
+    <version>0.0.0</version>
+    <description>The rc_gazebo package</description>
+
+    <maintainer email="riadh.dhaoui@rub.de">Riadh Dhaoui</maintainer>
+
+
+
+    <license>MIT</license>
+
+    <url type="website">http://eufs.co</url>
+    <url type="repository">https://gitlab.com/eufs/eufs_sim</url>
+    <url type="bugtracker">https://gitlab.com/eufs/eufs_sim/issues</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roslint</build_depend>
+
+    <depend>gazebo_ros</depend>
+    <depend>eufs_description</depend>
+    <depend>ros_can_sim</depend>
+    <depend>eufs_msgs</depend>
+    <depend>controller_manager</depend>
+    <depend>velodyne_simulator</depend>
+    <depend>effort_controllers</depend>
+    <depend>velocity_controllers</depend>
+    <depend>joint_state_controller</depend>
+    <depend>gazebo_ros_control</depend>
+    <depend>roscpp</depend>
+    <depend>rospy</depend>
+    <depend>std_msgs</depend>
+    <depend>std_srvs</depend>
+    <depend>tf</depend>
+    <depend>python-scipy</depend>
+    <depend>python-pandas</depend>
+    <depend>python-numpy</depend>
+    <depend>python-matplotlib</depend>
+
+    <export>
+        <gazebo_ros gazebo_plugin_path="${prefix}/plugins" gazebo_model_path="${prefix}/.." />
+    </export>
+
+</package>
